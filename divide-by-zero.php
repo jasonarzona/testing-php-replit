@@ -8,3 +8,4 @@ class TestOfCalculator extends UnitTestCase {
 	  $myCalc = new Calculator();
 	  $this->assertEqual($myCalc->divide(3,0), ERR, "Divide by zero, returns ERR");
 	}
+}
